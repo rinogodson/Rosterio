@@ -1,0 +1,45 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    width: 100%;
+    position: absolute;
+    height: 35px;
+    background: linear-gradient(180deg, #000000 0%, #141414 100%);
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 0px 20px 4px #000000;
+
+}
+
+.divisionName{
+    margin-left: 25px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #909090;
+}
+
+.progress{
+    margin-right: 10px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    padding: 8px;
+
+}

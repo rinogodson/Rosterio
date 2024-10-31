@@ -1,0 +1,25 @@
+.Ckey {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 60px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 0 0 10px 2px hsla(0, 0%, 0%, 0.5);
+    will-change: transform;
+    transition: all 200ms;
+}
+
+.Ckey:active {
+    transform: scale(0.9);
+    background-color: #1E1E1E;
+}
+
+.keyIcon {
+    fill: #C0C0C0;
+    height: 30px;
+    width: 30px;
+}

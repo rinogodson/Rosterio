@@ -1,0 +1,36 @@
+.keypadContainer{
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 1fr 75px;
+    grid-template-areas: 
+    "keypad keypad keypad"
+    ". . ."; 
+    gap: 8px 12px;
+    justify-items: center;
+    padding: 20px;
+    border-radius: 50px;
+    margin-inline: 25px;
+    align-items: start;
+    border: solid 1px #363636;
+    background-color: black;
+    transition: all 1s;
+}
+
+@media (max-width: 400px) {
+    .keypadContainer{
+      transform: scale(0.9);
+    }
+}
+
+.keypad{
+    width: fit-content;
+    height: 100%;
+    grid-area: keypad;
+    gap: 8px 12px;
+    justify-items: center;
+    align-items: center;
+    overflow: scroll;
+}
+
