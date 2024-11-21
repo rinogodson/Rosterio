@@ -5,7 +5,7 @@ import StateToggleBt from "./StateToggleBt";
 import { AnimatePresence, motion } from 'framer-motion';
 
 export default function ListerContainer({marked, isAbMode, setIsAbMode, log, division }) {
-  const displayedLog = log.slice(-10);
+  const displayedLog = log;
 
   const containerRef = React.useRef(null);
 
